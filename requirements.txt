@@ -1,0 +1,6 @@
+selenium
+behave
+PyHamCrest
+allure-behave
+allure-python-commons
+webdriver-manager
