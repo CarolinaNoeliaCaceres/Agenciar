@@ -7,9 +7,10 @@ import allure
 
 @given(u'la url de Agenciar')
 def step_impl(context):
-    context.page = LoginPage()
-    context.page.open("CHROME",
-                      implicity_wait=10, url=context.config.userdata["URL"])
+    #context.page = LoginPage()
+    #context.page.open("CHROME",
+    #                  implicity_wait=10, url=context.config.userdata["URL"])
+    pass
 
 @given(u'al seleccionar Ingresar e ingresar Usuario y password')
 def step_impl(context):
