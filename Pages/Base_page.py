@@ -27,7 +27,7 @@ class BasePage:
             chrome_profile = Options()
             chrome_profile.add_argument('--allow-running-insecure-content')
             chrome_profile.add_argument('--ignore-certificate-errors')
-            #chrome_profile.add_argument("--headless")
+            chrome_profile.add_argument("--headless")
             #chrome_profile.add_argument("--disable-gpu")
 
             #chrome_profile.add_argument("--start-maximized")
