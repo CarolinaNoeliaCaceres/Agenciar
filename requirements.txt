@@ -3,4 +3,4 @@ behave
 PyHamCrest
 allure-behave
 allure-python-commons
-webdriver-manager
+webdriver-manager==3.5.4
